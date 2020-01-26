@@ -16,7 +16,7 @@ namespace InventoryService.Tests
         public void Test1()
         {
             double total = _inventory.GetCartTotal( new string[]{"Toothbrush","Towel","Lamp"} );
-            Assert.Equal(total, 28.00);
+            Assert.Equal(28.00, total);
         }
     }
 }
